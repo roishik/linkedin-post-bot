@@ -8,7 +8,7 @@ services:
       - .env
     volumes:
       - n8n_data:/home/node/.n8n
-    command: start --tunnel
+    command: start
     # optional: uncomment to run as your host UID
     # user: "${UID}:${GID}"
     
